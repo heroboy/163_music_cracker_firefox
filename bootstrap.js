@@ -7,7 +7,7 @@ function makeURI(aURL, aOriginCharset, aBaseURI) {
 	return ioService.newURI(aURL, aOriginCharset, aBaseURI);
 }
 
-var core_url = 'https://cdn.rawgit.com/Chion82/163_music_cracker/bc1154f085bbc39e2d028a499de4e7317dabcfa2/core.js';
+var core_url = 'https://cdn.rawgit.com/Chion82/163_music_cracker/373fe0398dd8c3380db8bb06d06d38c6f3bee082/core.js';
 var playlist_url = 'https://cdn.rawgit.com/Chion82/163_music_cracker/d3696029a4b6677cb978d097a59b6e12b86489b3/pt_content_playlist.js';
 var http_obs = {
 	observe: function(subject,topic,data){
